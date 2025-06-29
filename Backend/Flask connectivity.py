@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Ngrok Auth
-conf.get_default().auth_token = "2yjSqGbtqU0kJjpS0KFz2fhiV60_UyF8TtpA4sgMrxRbrQMr"
+conf.get_default().auth_token = "" #add your-ngrok-authtoken (dont share yours on github)
 
 # 2. Flask App + CORS
 app = Flask(__name__)
