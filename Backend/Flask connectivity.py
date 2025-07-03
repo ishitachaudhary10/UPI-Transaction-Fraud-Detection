@@ -14,6 +14,7 @@ conf.get_default().auth_token = "" #add your-ngrok-authtoken (dont share yours o
 app = Flask(__name__)
 CORS(app)  # ✅ This line is required!
 
+
 # 3. Start Ngrok Tunnel
 public_url = ngrok.connect(5000)
 print("🌐 Public URL:", public_url)
